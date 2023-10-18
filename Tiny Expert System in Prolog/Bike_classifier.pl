@@ -1,4 +1,4 @@
-bike(ktm_rc).
+bike(ktm_rc).https://github.com/Sushrut-Patil/Artificial-Intelligence-Lab-Assignments/tree/main/Lab%20Assignment%206
 bike(bajaj_pulsar).
 bike(royal_enfield).
 bike(jawa_42).
