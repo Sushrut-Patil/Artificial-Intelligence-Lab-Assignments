@@ -1,11 +1,11 @@
-#R-class Single Layer Preceptron
+#R-class Single Layer Perceptron
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import copy
 
 
-#signum fuction
+#signum function
 def sgn(net):
     if net>=0:
         return 1
@@ -34,7 +34,7 @@ if __name__ == "__main__":
                         [-1, 1, -1]
                                     ])
     
-    #initialization of weight vetor using small random values
+    #initialization of weight vector using small random values
     I_Weight = np.array([
                         [-0.1, 0.15, 0.2],
                         [-0.2, 0.11, 0.17],
@@ -43,11 +43,11 @@ if __name__ == "__main__":
     
     for c in range(1,3):
 
-        #initialization of weight vetor
+        #initialization of weight vector
         Weight = copy.deepcopy(I_Weight)
         print(Weight)
 
-        #initialize Learning rate
+        # Initialize learning rate
         LR = c
         epochs = 1
         Error = 1000
