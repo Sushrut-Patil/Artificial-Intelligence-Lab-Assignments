@@ -1,4 +1,4 @@
-#Binary Single Class Preceptron
+#Binary Single Class Perceptron
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
@@ -28,13 +28,13 @@ if __name__ == "__main__":
     #Traning Epochs
     maxepochs = 21
 
-    ##initialization of weight vetor using random values
+    ##initialization of weight vector using random values
     # I_Weight = np.random.uniform(-0.5,0.5,4)
     I_Weight = np.array([1,-1.5,1.5,0.5])
     
     for i in range(1,3):
 
-        #initialization of weight vetor
+        #initialization of weight vector
         Weight = copy.deepcopy(I_Weight)
         print(Weight)
 
